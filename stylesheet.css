@@ -1,0 +1,16 @@
+*{
+    margin: 0;
+    padding: 0;
+    gap: 0;
+}
+
+:root{
+    --1stclr: #59CBE8;
+    --1stclr_shade: #00BCE1;
+    --2ndclr: #E93CAC;
+    --3rdclr: #1E22AA;
+    --4thclr: #201547;
+    --4thclr_shade: #051C2C;
+    --white: #FFFFFF;
+    --black: #000000;
+}
