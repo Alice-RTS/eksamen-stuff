@@ -5,12 +5,21 @@
 }
 
 :root{
-    --1stclr: #59CBE8;
-    --1stclr_shade: #00BCE1;
-    --2ndclr: #E93CAC;
-    --3rdclr: #1E22AA;
-    --4thclr: #201547;
-    --4thclr_shade: #051C2C;
+    --stclr: #59CBE8;
+    --stclr_shade: #00BCE1;
+    --ndclr: #E93CAC;
+    --rdclr: #1E22AA;
+    --thclr: #201547;
+    --thclr_shade: #051C2C;
     --white: #FFFFFF;
     --black: #000000;
+}
+
+.footer{
+    margin-top: 150px;
+    width: 100%;
+    padding: 100px 15%;
+    background-color:var(--thclr);
+    color: aliceblue;
+    display:flex;
 }
