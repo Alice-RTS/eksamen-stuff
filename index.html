@@ -5,6 +5,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>commision_page</title>
+
+    <script src="https://kit.fontawesome.com/b7b4d1abd3.js" crossorigin="anonymous"></script>
+
+
+    <link rel="stylesheet" href="stylesheet.css">
 </head>
 <body>
     <div class="banner__pictuers">
@@ -84,30 +89,35 @@
 
     <p>Name</p> <input type="text">
     <p>phone number</p><input type="number">
-    <p>email</p> <input type="text">
+    <p>email</p> <input type="email">
     <p>address</p> <input type="text">
     <p>item wight</p> <input type="number">
     <button type="button">submit</button>
 
-    <footer>
-        <p class="footer__col1">
+    <footer class="footer">
+        <section class="footer__col1">
             <h3>Useful Links</h3>
-            <a href="#">About</a>
-            <a href="#">servises</a>
-            <a href="#">contact</a>
+            <a href="#">About</a> <br>
+            <a href="#">servises</a> <br>
+            <a href="#">contact</a> <br>
             <a href="#">blog</a>
-        </p>
-        <p class="footer__col2">
+        </section>
+        <section class="footer__col2">
             <h3>newsletter</h3>
             <form>
-                <input type="text" placeholder="Your email address">
-                <button type="submit"> subscribe now</button> 
+                <input type="email" placeholder="Your email address" required> <br>
+                <button class="footer__button" type="submit"> subscribe now</button> 
             </form>
-        </p>
-        <p class="footer__col3">
+        </section>
+        <section class="footer__col3">
             <h3>contact</h3>
             <p>123, xyz, road, BSK 3</p>
-        </p>
+            <div class="social__icons">
+                <i class="fa-brands fa-facebook"></i>
+                <i class="fa-brands fa-twitter"></i>
+                <i class="fa-brands fa-instagram"></i>
+            </div>
+        </section>
 
     </footer>
 
