@@ -35,10 +35,13 @@
         <p class="radio__name">Lorem, ipsum.</p>
 
         <form>
-            <INPUT TYPE="radio">Valgmulighed 1
-            <INPUT TYPE="radio">Valgmulighed 2
-            <INPUT TYPE="radio">Valgmulighed 3
+            <input id="option1-1" type="radio">
+            <label for="option1-1"> option 1</label>
+            <input type="radio">
+            <input type="radio">
         </form>
+
+        <label for=""> option</label>
 
         <img src="img/img1.jpg" alt="option 1">
         <img src="img/img1.jpg" alt="option 2">
@@ -87,12 +90,15 @@
     </div>
 
 
-    <p>Name</p> <input type="text">
-    <p>phone number</p><input type="number">
-    <p>email</p> <input type="email">
-    <p>address</p> <input type="text">
-    <p>item wight</p> <input type="number">
-    <button type="button">submit</button>
+    <form>
+
+    <p>Name*</p> <input type="text" required>
+    <p>phone number</p><input type="tel">
+    <p>email*</p> <input type="email" required>
+    <p>address*</p> <input type="text" required>
+    <p>item weight</p> <input type="number">
+    <input type="submit" value="Sumbit">
+    </form>
 
     <footer class="footer">
         <section class="footer__col1">

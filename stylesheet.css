@@ -17,9 +17,21 @@
 }
 
 .banner__pictuers img{
-    max-width: 40%;
+    max-width: 100%;
     height: auto;
+    
     }
+
+.banner__pictuers{
+    display: grid;
+    background-color: var(--stclr);
+    margin: auto;
+    padding: 50px 20% 90px ;
+    grid-template-columns: auto auto;
+}
+
+
+
 
 .footer{
     margin-top: 150px;
