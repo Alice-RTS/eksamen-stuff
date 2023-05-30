@@ -29,65 +29,86 @@
         <img src="/img/img0.jpg" alt="we look trustworthy">
     </div>
 
-    <div class="radio">
-        <p class="radio__name">Lorem, ipsum.</p>
-        <p class="radio__name">Lorem, ipsum.</p>
-        <p class="radio__name">Lorem, ipsum.</p>
-
-        <form>
-            <input id="option1-1" type="radio">
-            <label for="option1-1"> option 1</label>
-            <input type="radio">
-            <input type="radio">
-        </form>
-
-        <label for=""> option</label>
-
-        <img src="img/img1.jpg" alt="option 1">
-        <img src="img/img1.jpg" alt="option 2">
-        <img src="img/img1.jpg" alt="option 3">
-
-        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus, ducimus.</p>
-        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus, ducimus.</p>
-        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus, ducimus.</p>
-
-        <p class="radio__name">Lorem, ipsum.</p>
-        <p class="radio__name">Lorem, ipsum.</p>
-        <p class="radio__name">Lorem, ipsum.</p>
-
-        <form>
-            <INPUT TYPE="radio">Valgmulighed 1
-            <INPUT TYPE="radio">Valgmulighed 2
-            <INPUT TYPE="radio">Valgmulighed 3
-        </form>
-
-        <img src="img/img1.jpg" alt="option 1">
-        <img src="img/img1.jpg" alt="option 2">
-        <img src="img/img1.jpg" alt="option 3">
-
-        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus, ducimus.</p>
-        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus, ducimus.</p>
-        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus, ducimus.</p>
-
-        <p class="radio__name">Lorem, ipsum.</p>
-        <p class="radio__name">Lorem, ipsum.</p>
-        <p class="radio__name">Lorem, ipsum.</p>
-
-        <form>
-            <INPUT TYPE="radio">Valgmulighed 1
-            <INPUT TYPE="radio">Valgmulighed 2
-            <INPUT TYPE="radio">Valgmulighed 3
-        </form>
-
-        <img src="img/img1.jpg" alt="option 1">
-        <img src="img/img1.jpg" alt="option 2">
-        <img src="img/img1.jpg" alt="option 3">
-
-        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus, ducimus.</p>
-        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus, ducimus.</p>
-        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus, ducimus.</p>
-
+    <section class="buyOptions">
+        <div class="buyOptions__colm">
+            <label for="radio_1">speed paint</label> <br><!--label for at høre det letter. for gør at teksten kan klikkes for ta activere kanppen -->
+            <input class="raidoBtn" type="radio" name="qty" id="radio_1" value="60"> <br>
+            <img class="buyOptions__colm__img" src="/img/img0.jpg" alt="">
+        </div>
+        <div class="buyOptions__colm" >
+            <label for="radio_2">table top standart</label> <br>
+            <input class="raidoBtn" type="radio" name="qty" id="radio_2" value="240"> <br>
+            <img class="buyOptions__colm__img" src="/img/img0.jpg" alt="">
+        </div>
+        <div class="buyOptions__colm">
+            <label for="radio_3">delux</label> <br>
+            <input class="raidoBtn" type="radio" name="qty" id="radio_3" value="540"> <br>
+            <img class="buyOptions__colm__img" src="/img/img0.jpg" alt="">
+        </div>
+    </section>
+    
+    
+    <section class="buyOptions">
+        <div class="buyOptions__colm">
+    
+            <label for="enFarve">en farve</label>    <br>
+            <input class="raidoBtn" type="radio" name="antalFarver" id="enFarve" value="1"> <br>
+            <img class="buyOptions__colm__img" src="/img/img0.jpg" alt="">
+        </div>
+        <div class="buyOptions__colm">
+    
+            <label for="treFarver">tre farver</label><br>
+            <input class="raidoBtn" type="radio" name="antalFarver" id="treFarver" value="3"> <br>
+            <img class="buyOptions__colm__img" src="/img/img0.jpg" alt="">
+        </div>
+        <div class="buyOptions__colm">
+            <label for="syvFarver">syv farver</label><br>
+            <input class="raidoBtn" type="radio" name="antalFarver" id="syvFarver" value="7"> <br>
+            <img class="buyOptions__colm__img" src="/img/img0.jpg" alt="">
+        </div>
+    </section>
+    
+    
+    <section class="buyOptions">
+        <div class="buyOptions__colm">
+    
+            <label for="print">3D printed hos os</label>    <br>
+            <input class="raidoBtn" type="radio" name="medium" id="print" value="100"> <br>
+            <img class="buyOptions__colm__img" src="/img/img0.jpg" alt="">
+        </div>
+        <div class="buyOptions__colm">
+    
+            <label for="afhent">Send med pakka post</label><br>
+            <input class="raidoBtn" type="radio" name="medium" id="afhent" value="40"> <br>
+            <img class="buyOptions__colm__img" src="/img/img0.jpg" alt="">
+            
+        </div>
+        <div class="buyOptions__colm">
+    
+            <label for="køb">Vi køber selv in</label> <br>
+            <input class="raidoBtn" type="radio" name="medium" id="køb" value="700"> <br>
+            <img class="buyOptions__colm__img" src="/img/img0.jpg" alt="">
+        </div>
+    </section>
+    
+    <div class="buttonFlex">
+    <button class="buttonBig" id="calc">udregn</button>
     </div>
+    <div class="card" id="priceCard">
+        <div class="card__text">
+            <div><h3>Lorem, ipsum.</h3></div>
+            <div class="card__colums">
+                <article>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsum asperiores error provident adipisci dolorem fugit aperiam repudiandae et voluptas, minima tempore consectetur sit tempora rem quo pariatur sapiente voluptate! Architecto? Lorem ipsum dolor sit amet consectetur adipisicing elit.   
+                </article>
+    
+                <article>Velit est vero necessitatibus nesciunt tempora nam ut fugiat, quo, corrupti minima distinctio nobis nostrum. Atque molestiae officia culpa laboriosam, aliquid vel consequatur nobis corporis, assumenda officiis sed dolores reiciendis, quia natus.
+                </article>
+            </div>
+            <div id="totalprice"></div>
+            <div><button id="priceCard__okButton"> OK </button></div>
+        </div>
+    </div>
+    
 
 
     <form>
