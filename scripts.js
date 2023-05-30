@@ -14,15 +14,19 @@ function clickCalcBtn() {
     return function () {
         const qualitiy = findRadioValue("qty");
         const colors = findRadioValue("antalFarver");
+        const medium = findRadioValue("medium")
         console.log("q: " + qualitiy);
         console.log("c: " + colors);
+        console.log("m: " + medium)
         if (qualitiy == undefined)
             alert("Udfyld kvaliti");
         else if (colors == undefined)
             alert("udfhyld farver");
+        else if (medium == undefined)
+            alert("udfyld medium")
         else { // checker om all mulighder er valgt får dem give en samlet price
             priceCard.style.display = "flex";
-            totalprice.innerHTML = qualitiy * colors + "kr";
+            totalprice.innerHTML = qualitiy * colors + medium + "kr";
         }
     };
 }

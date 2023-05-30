@@ -16,6 +16,8 @@
     --black: #000000;
 }
 
+
+
 .banner__pictuers img{
     max-width: 100%;
     height: auto;
@@ -41,6 +43,7 @@
     border: 0px;
     width: auto;
     height: 3em;
+    color: var(--stclr);
 }
 
 .buyOptions__colm{
