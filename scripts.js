@@ -26,7 +26,7 @@ function clickCalcBtn() {
             alert("udfyld medium")
         else { // checker om all mulighder er valgt får dem give en samlet price
             priceCard.style.display = "flex";
-            totalprice.innerHTML = qualitiy * colors + medium + "kr";
+            totalprice.innerHTML = qualitiy * colors medium + "kr";
         }
     };
 }
