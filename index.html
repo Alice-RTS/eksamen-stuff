@@ -19,7 +19,7 @@
         <img src="/img/img5.jpg"></img>
     </div>  
 
-    <h1>Lorem ipsum dolor sit.</h1>
+    <h1 class=header>Lorem ipsum dolor sit.</h1>
  
     <article class="credit">
         <img src="/img/img1.jpg" alt="we look trustworthy"> 
@@ -108,14 +108,15 @@
     
 
 
-    <form>
+    <form class="info">
 
-        <p>Name*</p> <input type="text" required    name="name"    id="name">
-        <p>phone number</p><input type="tel"        name="tlf"     id="tlf">
-        <p>email*</p> <input type="email" required  name="email"   id="email">
-        <p>address*</p> <input type="text" required name="address" id="address">
-        <p>item weight</p> <input type="number"     name="weight"  id="weight" > 
-        <input type="submit" value="Sumbit">
+        <p>Name*</p> <input type="text" required    class="info__form"   name="name"    id="name" placeholder="Alice">
+        <p>phone number</p><input type="tel"        class="info__form"   name="tlf"     id="tlf" placeholder="+45 88 88 88 88">
+        <p>email*</p> <input type="email" required  class="info__form" name="email"   id="email" placeholder="something@mail.com">
+        <p>address*</p> <input type="text" required class="info__form" name="address" id="address" placeholder="roskilde 4000 kildegården 14">
+        <p>item weight</p> <input type="number"     class="info__form" name="weight"  id="weight" placeholder="42kg" > 
+        <p>* is recuried </p>
+        <input type="submit" value="Sumbit" class="text">
     </form>
 
     <footer class="footer">

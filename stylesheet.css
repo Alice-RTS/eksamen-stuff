@@ -36,6 +36,12 @@
     grid-template-columns: auto auto;
 }
 
+.header{
+    display: flex;
+    justify-content: center;
+    padding: 2rem;
+}
+
 .credit{
 display: flex;  
 padding: 2rem;
@@ -123,8 +129,14 @@ padding: 2rem;
     background-color: var(--stclr_shade);
 }
 
+.text{
+color: #000000;
+}
 
 
+.info__form{
+    color: var(--black);
+}
 
 .footer{
     margin-top: 150px;
