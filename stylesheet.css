@@ -3,6 +3,7 @@
     padding: 0;
     gap: 0;
     box-sizing: border-box;
+    color: var(--white);
 }
 
 :root{
@@ -34,7 +35,15 @@
     grid-template-columns: auto auto;
 }
 
-.credit
+.credit{
+display: flex;  
+padding: 2rem;
+}
+
+.credit p{
+    padding: 0px 5rem 5rem;
+}
+
 
 .buyOptions{
     display:flex;
