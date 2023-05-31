@@ -34,6 +34,8 @@
     grid-template-columns: auto auto;
 }
 
+.credit
+
 .buyOptions{
     display:flex;
     justify-content: center;
@@ -91,17 +93,24 @@
 }
 
 .buttonFlex{
-    display: flex;
-    flex-direction: row-reverse;
-    padding-right:  10%;
-
+    margin-top: 2rem;
 }
 
 .buttonBig{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
     width: 20rem;
     height: 5rem;
     font-size: 60px;
     border-radius: 100px;
+    background-color :var(--stclr);
+    transition: 0.3s;
+
+}
+
+.buttonBig:hover{
+    background-color: var(--stclr_shade);
 }
 
 

@@ -14,10 +14,10 @@ function clickCalcBtn() {
     return function () {
         const qualitiy = findRadioValue("qty");
         const colors = findRadioValue("antalFarver");
-        const medium = findRadioValue("medium")
+        const medium = findRadioValue("medium");
         console.log("q: " + qualitiy);
         console.log("c: " + colors);
-        console.log("m: " + medium)
+        console.log("m: " + medium);
         if (qualitiy == undefined)
             alert("Udfyld kvaliti");
         else if (colors == undefined)
@@ -26,8 +26,7 @@ function clickCalcBtn() {
             alert("udfyld medium")
         else { // checker om all mulighder er valgt får dem give en samlet price
             priceCard.style.display = "flex";
-            totalprice.innerHTML = qualitiy * colors medium + "kr";
-        }
+            totalprice.innerHTML = qualitiy * colors +  parseInt(medium) +"DKK" ; } //stringy ****
     };
 }
 
