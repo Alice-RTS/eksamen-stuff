@@ -109,14 +109,17 @@
 
 
     <form class="info">
-
-        <p>Name*</p> <input type="text" required    class="info__form"   name="name"    id="name" placeholder="Alice">
-        <p>phone number</p><input type="tel"        class="info__form"   name="tlf"     id="tlf" placeholder="+45 88 88 88 88">
-        <p>email*</p> <input type="email" required  class="info__form" name="email"   id="email" placeholder="something@mail.com">
-        <p>address*</p> <input type="text" required class="info__form" name="address" id="address" placeholder="roskilde 4000 kildegården 14">
-        <p>item weight</p> <input type="number"     class="info__form" name="weight"  id="weight" placeholder="42kg" > 
-        <p>* is recuried </p>
-        <input type="submit" value="Sumbit" class="text">
+        <section>    
+            <p>Name*</p> <input type="text" required    class="info__form"   name="name"    id="name" placeholder="Alice">
+            <p>phone number</p><input type="tel"        class="info__form"   name="tlf"     id="tlf" placeholder="+45 88 88 88 88">
+            <p>email*</p> <input type="email" required  class="info__form" name="email"   id="email" placeholder="something@mail.com">
+        </section>
+        <section>
+            <p>address*</p> <input type="text" required class="info__form" name="address" id="address" placeholder="roskilde 4000 kildegården 14">
+            <p>item weight</p> <input type="number"     class="info__form" name="weight"  id="weight" placeholder="42kg" > 
+            <p>* is recuried </p>
+            <input type="submit" value="Sumbit" class="text">
+        </section>
     </form>
 
     <footer class="footer">
@@ -130,7 +133,7 @@
         <section class="footer__col2">
             <h3>newsletter</h3>
             <form>
-                <input type="email" placeholder="Your email address" required> <br>
+                <input class="footer__input" type="email" placeholder="Your email address" required> <br>
                 <button class="footer__button" type="submit"> subscribe now</button> 
             </form>
         </section>

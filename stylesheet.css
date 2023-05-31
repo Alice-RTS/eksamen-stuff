@@ -133,6 +133,15 @@ padding: 2rem;
 color: #000000;
 }
 
+input{
+
+}
+
+.info{
+padding: 2rem;
+display: flex;
+justify-content: space-around;
+}
 
 .info__form{
     color: var(--black);
@@ -171,7 +180,7 @@ color: #000000;
     margin-bottom: 10px;
 }
 
-form input{
+.footer__input{
     width: 400px;
     height: 45px;
     border-radius: 4px;
