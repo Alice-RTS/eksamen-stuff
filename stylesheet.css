@@ -129,12 +129,22 @@ padding: 2rem;
     background-color: var(--stclr_shade);
 }
 
-.text{
-color: #000000;
+.buttonNormal{
+    width: 10rem;
+    height: 2rem;
+    font-size: 20px;
+    border-radius: 100px;
+    background-color :var(--stclr);
+    transition: 0.3s;
+
 }
 
-input{
+.buttonNormal:hover{
+    background-color: var(--stclr_shade);
+}
 
+.text{
+color: #000000;
 }
 
 .info{
@@ -145,6 +155,9 @@ justify-content: space-around;
 
 .info__form{
     color: var(--black);
+    width: 15rem;
+    height: 2rem;
+    border-radius: 4px;
 }
 
 .footer{
@@ -213,4 +226,29 @@ form button{
     font-size: 22px;
     margin: 10px;
     cursor: pointer;
+}
+
+@media only screen and (max-width: 800px) {
+    *{
+    margin: 0;
+    padding: 0;
+    gap: 0;
+    box-sizing: border-box;
+    color: var(--black);
+    font-family: Arial, Helvetica, sans-serif;
+}
+    
+:root{
+    --stclr: #59CBE8;
+    --stclr_shade: #00BCE1;
+    --ndclr: #E93CAC;
+    --rdclr: #1E22AA;
+    --thclr: #201547;
+    --thclr_shade: #051C2C;
+    --white: aliceblue;
+    --black: #000000;
+}
+
+
+
 }
