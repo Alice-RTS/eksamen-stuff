@@ -238,17 +238,224 @@ form button{
     font-family: Arial, Helvetica, sans-serif;
 }
     
-:root{
-    --stclr: #59CBE8;
-    --stclr_shade: #00BCE1;
-    --ndclr: #E93CAC;
-    --rdclr: #1E22AA;
-    --thclr: #201547;
-    --thclr_shade: #051C2C;
-    --white: aliceblue;
-    --black: #000000;
+    :root{
+        --stclr: #59CBE8;
+        --stclr_shade: #00BCE1;
+        --ndclr: #E93CAC;
+        --rdclr: #1E22AA;
+        --thclr: #201547;
+        --thclr_shade: #051C2C;
+        --white: aliceblue;
+        --black: #000000;
+}
+
+.body{
+    background-color: var(--rdclr);
+}
+
+.banner__pictuers img{
+    max-width: 100%;
+    height: auto;
+    
+    }
+
+.banner__pictuers{
+    display: grid;
+    background-color: var(--stclr);
+    margin: auto;
+    padding: 50px 20% 90px ;
+    grid-template-columns: auto auto;
+}
+
+.header{
+    display: flex;
+    justify-content: center;
+    padding: 2rem;
+}
+
+.credit{
+display: flex;  
+padding: 2rem;
+}
+
+.credit p{
+    padding: 0px 5rem 5rem;
+}
+
+
+.buyOptions{
+    display:flex;
+    justify-content: center;
+    gap: 8%;
+    padding-top: 20px;
+}
+
+.raidoBtn{
+    border: 0px;
+    width: auto;
+    height: 3em;
+    color: var(--stclr);
+}
+
+.buyOptions__colm{
+    padding-top: 10px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.buyOptions__colm__img{
+    width: 300px;
+    height: auto;
+    display: flex;
+    justify-content: center;
 }
 
 
 
+
+
+.card{
+    display: none;
+    z-index: 200;                /* skal være øverst */
+    background-color:var(--ndclr);
+    margin: 10%;
+    padding:5rem;
+}
+
+.card__text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.card__colums{
+    display: flex;
+    padding: 2rem;
+    gap: 20px;
+}
+
+.card button{
+    justify-content: center;
+}
+
+.buttonFlex{
+    margin-top: 2rem;
+}
+
+.buttonBig{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 20rem;
+    height: 5rem;
+    font-size: 60px;
+    border-radius: 100px;
+    background-color :var(--stclr);
+    transition: 0.3s;
+
+}
+
+.buttonBig:hover{
+    background-color: var(--stclr_shade);
+}
+
+.buttonNormal{
+    width: 10rem;
+    height: 2rem;
+    font-size: 20px;
+    border-radius: 100px;
+    background-color :var(--stclr);
+    transition: 0.3s;
+
+}
+
+.buttonNormal:hover{
+    background-color: var(--stclr_shade);
+}
+
+.text{
+color: #000000;
+}
+
+.info{
+padding: 2rem;
+display: flex;
+justify-content: space-around;
+}
+
+.info__form{
+    color: var(--black);
+    width: 15rem;
+    height: 2rem;
+    border-radius: 4px;
+}
+
+.footer{
+    margin-top: 150px;
+    width: 100%;
+    padding: 100px 15%;
+    background-color:var(--thclr);
+    color: var(--white);
+    display:flex;
+}
+
+.footer section{
+    text-align: center;
+}
+
+.footer__col2{
+    flex-grow: 2;
+}
+
+
+
+.footer section H3{
+    font-weight: 300;
+    margin-bottom: 30px;
+    letter-spacing: 1px;
+}
+
+
+.footer__col1 a{
+    display: block;
+    text-decoration: none;
+    color: white;
+    margin-bottom: 10px;
+}
+
+.footer__input{
+    width: 400px;
+    height: 45px;
+    border-radius: 4px;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    outline: none;
+    border: none;
+}
+
+form button{
+    background:transparent ;
+    border: 2px solid var(--white);
+    color:var(--white);
+    border-radius: 30px ;
+    padding: 10px 30px;
+    font-size: 15px;
+    cursor:pointer;
+}
+
+.footer__button:hover{
+    background-color: var(--ndclr);
+}
+
+.social__icons{
+    margin-top: 30px;   
+}
+
+.social__icons i{
+    font-size: 22px;
+    margin: 10px;
+    cursor: pointer;
+}
 }
