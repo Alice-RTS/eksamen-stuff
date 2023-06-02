@@ -117,8 +117,11 @@ padding: 2rem;
 
 .card button{
     justify-content: center;
+    width: 10rem;
+    height: 2rem;
     background-color: var(--stclr);
     border-radius: 2rem;
+    margin-top: 1rem;
 }
 
 .card button:hover{
@@ -325,11 +328,5 @@ form button{
     .footer__input{
         width: 200px;
      
-    }
-  
-    .social__icons i{
-        font-size: 22px;
-        margin: 10px;
-        cursor: pointer;
     }
 }
